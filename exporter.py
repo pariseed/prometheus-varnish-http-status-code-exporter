@@ -162,7 +162,6 @@ regex431 = re.compile(".*(.00..431)")
 gauge451 = Gauge('HTTP_451_CODE', 'number of varnish http satus code')
 regex451 = re.compile(".*(.00..451)")
 
-
 gauge500 = Gauge('HTTP_500_CODE', 'number of varnish http satus code')
 regex500 = re.compile(".*(.00..500)")
 
