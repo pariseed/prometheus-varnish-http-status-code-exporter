@@ -1,0 +1,10 @@
+[Unit]
+Description=varnish http status code prometheus exporter
+
+[Service]
+ExecStart=/usr/bin/python2.7 /path/to/file
+Restart=on-failure
+
+
+[Install]
+WantedBy=multi-user.target
