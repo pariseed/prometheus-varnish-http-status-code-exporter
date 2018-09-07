@@ -215,7 +215,7 @@ regex511 = re.compile(".*(.00..511)")
 
 
 gauge700 = Gauge('HTTP_700_CODE', 'number of varnish http satus code')
-regex700 = re.compile(".*(.00..700.*)")
+regex700 = re.compile(".*(.00..700)")
 
 
 
