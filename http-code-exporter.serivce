@@ -1,5 +1,5 @@
 [Unit]
-Description=start prometheus myexporter 
+Description=start prometheus exporter 
 
 
 [Service]
