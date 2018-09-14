@@ -1,9 +1,11 @@
 [Unit]
-Description=varnish http status code prometheus exporter
+Description=start prometheus myexporter 
+
 
 [Service]
-ExecStart=/usr/bin/python2.7 /path/to/file
-Restart=on-failure
+ExecStart=/usr/bin/python /root/10.py
+WatchdogSec=3600
+Restart=always
 
 
 [Install]
